@@ -16,10 +16,13 @@
 }
 
 
+
 ul{
     float: left;
     list-style: none;
 }
+
+
 
 #marca{
     width: 15rem;
@@ -28,15 +31,21 @@ ul{
     background: transparent;
 }
 
+
+
 section{
     clear: both;
 }
+
+
 
 header{
     display: inline;
     width: 100%;
     vertical-align: middle;
 }
+
+
 
 #sesion{
     display: flex;
@@ -46,6 +55,8 @@ header{
     margin-right: 3rem;
 }
 
+
+
 p{
     width: 70%;
     margin-left: 15%;
@@ -53,6 +64,8 @@ p{
     font-size: 1.5rem;
     background: transparent;
 }
+
+
 
 #descripcion{
     background-image: url("../img/207748-netflix-uhd.webp");
@@ -62,23 +75,33 @@ p{
     text-shadow: 0.2rem 0.3rem 0.22rem black;
 }
 
+
+
 h1, #descrip{
     background: transparent;
     margin-top: 4rem;
     clear: both;
 }
+
+
+
 #registrar{
     padding: 1.5rem;
     text-shadow: none;
 }
 
+
+
 #trending{
     margin-top: 5rem;
 }
 
+
+
 #estrenos{
     margin-top: 5rem;
 }
+
 
 /*    ESTILOS DE MATERIALIZE      */
 
@@ -103,6 +126,7 @@ h1, #descrip{
     border-radius: 0.6rem;
     margin-top: 3rem;
 }
+
 
 #fin{
     
