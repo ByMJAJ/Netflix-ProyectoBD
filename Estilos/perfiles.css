@@ -24,7 +24,7 @@
 }
 
 
-#registrarse{
+#iniciar{
     display: flex;
     align-items: center;
     float: right;
@@ -48,44 +48,30 @@ h1{
     border-bottom: 0.1em solid ;
 }
 
+h2{
+    background: transparent;
+    margin-bottom: 1.8em;
+}
 
 #contenedor{
     min-width: 15em;
-    width: 20%;
+    width: 15%;
     margin: auto;
     border-top: 0.2em solid #F40612;
     border-radius: 0.2em;
     background-color: #464646;
     padding: 1em 2em; text-align: center;
+    margin-bottom: 5%;
 }
 
-
-#formulario{
-    width: 100%;
-    align-items: center;
-    background-color: #464646;
-    
-}
-
-
-.campo{
+.perfil{
     background: transparent;
     width: 100%;
-    max-width: 90%;
-    border-bottom: 0.1em solid #F40612;
-    border-radius: 0.4em;
-    margin-bottom: 2em;
-    background: #252323;
-    padding: 1em 1em;
-    font-size: 1;
-    font-weight: bold;
-    color: silver;
+    height: 40%;
+    margin-right: 20%;
 }
 
-
-#ingresar{
-    padding: 0.7em 1.5em;
-    font-weight: bold;
-    margin: 1em;
-    border: 0;
+img{
+    width: 70%;
+    background: transparent;
 }

@@ -24,7 +24,7 @@
 }
 
 
-#registrarse{
+#iniciar{
     display: flex;
     align-items: center;
     float: right;
@@ -51,12 +51,13 @@ h1{
 
 #contenedor{
     min-width: 15em;
-    width: 20%;
+    width: 50%;
     margin: auto;
     border-top: 0.2em solid #F40612;
     border-radius: 0.2em;
     background-color: #464646;
-    padding: 1em 2em; text-align: center;
+    padding: 1em 2em; 
+    text-align: center;
 }
 
 
@@ -67,10 +68,13 @@ h1{
     
 }
 
+.izq{
+    margin-right: 5%;
+}
 
 .campo{
     background: transparent;
-    width: 100%;
+    width: 40%;
     max-width: 90%;
     border-bottom: 0.1em solid #F40612;
     border-radius: 0.4em;
@@ -83,8 +87,47 @@ h1{
 }
 
 
-#ingresar{
+#registrar{
     padding: 0.7em 1.5em;
     font-weight: bold;
+    font-size: 1em;
     margin: 1em;
+    border: transparent;
+}
+
+/* Quitar decoracion predefinida del input Number */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+/* ---------------------------------------------- */
+
+.lista{
+    width: 44%;
+}
+
+
+
+.tarjeta{
+    width: 25%;
+    margin-right: 3%;
+    margin-left: 7%;
+}
+
+#sexo{
+    width: 15%;
+}
+
+.campoTar{
+    margin-right: 1%;
+    width: 5%;
+}
+
+#cvv{
+    margin-right: 3%;
 }
